@@ -20,7 +20,7 @@ int check_cycle(listint_t *list)
 				return (1);
 		}
 		current = current->next;
-		loop = current;
+		/*loop = current;*/
 	}
 	return (0);
 }

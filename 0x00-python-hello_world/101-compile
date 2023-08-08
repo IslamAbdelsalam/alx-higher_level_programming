@@ -1,3 +1,4 @@
-import py_compile
+#!/bin/bash
+python -m py_compile $PYFILE
+export PYFILEc="$PYFILE"
 
-py_compile.compile('my_script.py', cfile=f'$PYFILE')
