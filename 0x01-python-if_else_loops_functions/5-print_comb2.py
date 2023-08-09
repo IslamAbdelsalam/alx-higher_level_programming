@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-d = 5
-print(f"{d:dd}")
+for number in range(0, 100):
+    if number == 99:
+        print("{}".format(number))
+    else:
+        print("{:02}".format(number), end=", ")
