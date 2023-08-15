@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def remove_char_at(str, n):
-    nstr = str
-    if (n >= 0):
-        nstr = str[:n] + str[(n+1):]
-        return (nstr)
-    else:
-        return (nstr)
+for i in range(0, 10):
+    for j in range(0, 10):
+        if i+j != 18:
+            print("{}{}, ".format(i,j),end='')
+        else:
+            print("{}{}".format(i,j))
+    
