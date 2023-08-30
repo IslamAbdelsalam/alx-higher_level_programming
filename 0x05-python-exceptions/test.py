@@ -1,6 +1,3 @@
-my_list = [1, 2, 5, 6, 9]
-count = 0
+i = 'sid'
 
-print()
-
-print(count)
+print("{:d}".format(i))
