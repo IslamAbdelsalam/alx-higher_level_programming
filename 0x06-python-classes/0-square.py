@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
-"""Define a class named square."""
+'''Define a Square Class'''
 
 
 class Square:
-    """our square."""
-    pass
+    def __init__(self):
+        '''it's an Empty Class'''
+
+        pass
