@@ -4,8 +4,6 @@
 
 
 class Square:
+    """it's an Empty Class"""
 
-    def __init__(self):
-        """it's an Empty Class"""
-
-        pass
+    pass
