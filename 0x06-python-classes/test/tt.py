@@ -1,4 +1,6 @@
-num = 5.5
-test = (type(num) is int)
+class User:
+    id = 1
 
-print(test)
+u = User()
+User.id = 98
+print(u.id)

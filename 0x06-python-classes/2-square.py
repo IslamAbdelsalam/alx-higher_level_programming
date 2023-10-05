@@ -1,20 +1,23 @@
 #!/usr/bin/python3
-
-"""Define a class Square."""
+'''Square class will take a size and check it '''
 
 
 class Square:
-    """Represent a square."""
+
+    '''take a square size'''
 
     def __init__(self, size=0):
-        """Initialize a new Square.
+        '''Check square size is  valid or not.
 
         Args:
         ----
-            size (int): The size of the new square.
-        """
-        if not isinstance(size, int):
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
+                size (int): the size of the square
+        '''
+
+        if isinstance(size, int):
+            if size < 0:
+                raise ValueError('size must be  >= 0')
+        else:
+            raise TypeError('size must be an integer')
+
         self.__size = size
